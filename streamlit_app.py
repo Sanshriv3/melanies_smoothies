@@ -46,4 +46,4 @@ st.success('Your Smoothie is ordered!', icon="✅")
 
 import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
-st.text(smoothie froot_response)
+st.text(smoothie froot_response.json())
